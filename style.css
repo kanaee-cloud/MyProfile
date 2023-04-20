@@ -165,6 +165,9 @@ nav .navlinks li a:hover{
 
 /* Responsive design & displaying navbar for small screen */
 @media (max-width:930px){
+    body{
+        overflow-x: hidden;
+    }
     nav .togglebtn{
         display: initial;
     }
@@ -213,6 +216,9 @@ nav .navlinks li a:hover{
     }
 }
 @media (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
     .container{
         flex-direction: column;
         padding-top: 2rem;
