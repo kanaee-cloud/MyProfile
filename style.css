@@ -81,9 +81,7 @@ nav .navlinks li a{
     transition: 0.5s;
 }
 nav .navlinks li a:hover{
-    background-color: #b90404;
-    border-radius: 15px;
-    padding: 15px 5px;
+    color: #b90404;
 }
 
 
@@ -167,6 +165,7 @@ nav .navlinks li a:hover{
 @media (max-width:930px){
     body{
         overflow-x: hidden;
+        overflow-y: hidden;
     }
     nav .togglebtn{
         display: initial;
@@ -218,6 +217,7 @@ nav .navlinks li a:hover{
 @media (max-width:768px){
     body{
         overflow-x: hidden;
+        overflow-y: hidden;
     }
     .container{
         flex-direction: column;
